@@ -12,23 +12,24 @@ body{
 }
 
 form{
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     margin:10% auto;
     padding-top: 20px;
-    padding-left: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
     border-radius: 15px;
     background-color: hsl(213, 19%, 18%);
 }
 
 form img{
     display: block;
-    background-color: rgba(149, 158, 172, 0.5);
+    background-color: rgba(149, 158, 172, 0.2);
     border-radius: 50%;
     height: 50px;
     width: 50px;
     margin-left: 20px;
-    padding: 5px;
+    padding: 15px;
 }
 
 form h1{
@@ -43,10 +44,11 @@ form p{
     margin-bottom: 30px;
     font-size: 15px;
     line-height: 1.5rem;
+    margin-left: 10px;
 }
 
 form .radio{
-    margin-top: 10px;
+    margin-top: 5px;
     display: none;
 }
 
@@ -56,7 +58,7 @@ form label{
     width: 60px;
     height: 50px;
     margin-top: 15px;
-    margin: 15px;
+    margin: 10px;
     /* padding: 25px; */
     padding-top: 15px;
     padding-bottom: 15px;
@@ -79,11 +81,11 @@ form label:active{
 form .btn{
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
-    width: 400px;
-    height: 30px;
-    margin-top: 30px;
-    margin-left: 20px;
-    border-radius: 15px;
+    width: 350px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 10px;
+    border-radius: 20px;
     border: none;
     transition: 0.3s all;
 }
