@@ -12,14 +12,21 @@ body{
 }
 
 #form-1{
+    /* position: absolute;
+    top: 10%;
+    left: 37%; */
+    display: block;
     height: 400px;
     width: 400px;
-    margin:10% auto;
+    /* margin:10% auto; */
+    margin-top: 40%;
     padding-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 15px;
     background-color: hsl(213, 19%, 18%);
+    justify-content: center;
+    align-items: center;
 }
 
 #form-1 img{
@@ -81,6 +88,10 @@ body{
 #form-1 .btn{
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
+    font-family:'Overpass', sans-serif;
+    font-size: 20px;
+    /* font-weight: thin; */
+    line-height: 1.5rem;
     width: 350px;
     height: 40px;
     margin-top: 40px;
@@ -96,38 +107,44 @@ body{
 }
 
 #form-2{
+    /* position: absolute;
+    top: 10%;
+    left: 38%; */
     height: 400px;
     width: 400px;
-    margin:10% auto;
+    /* margin:10% auto; */
+    margin-top: 40%;
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 15px;
     background-color: hsl(213, 19%, 18%);
-    /* visibility: hidden; */
+    display: none;
 }
 
 #form-2 img{
     margin: 20px;
-    margin-left: 100px;
+    margin-left: 90px;
 }
 
 #form-2 label{
     background-color: rgba(149, 158, 172, 0.2);
     border-radius: 15px;
     width: 40%;
+    padding-top: 5px;
     padding-left: 10px;
     padding-right: 10px;
     color: hsl(25, 97%, 53%);
-    margin-left: 90px;
+    margin-left: 80px;
     margin-bottom: 20px;
 }
 
 #form-2 h1{
     color: hsl(0, 0%, 100%);
-    margin-top: 20px;
-    margin-left: 90px;
+    margin-top: 30px;
+    /* margin-left: 90px; */
     margin-bottom: 10px;
+    text-align: center;
 }
 
 #description{
@@ -135,8 +152,10 @@ body{
     font-size: 15px;
     align-self: center;
     line-height: 1.5rem;
+    text-align: center;
 }
 
 .attribution{
     color: hsl(0, 0%, 100%);
+    margin-top: 300px;
 }
