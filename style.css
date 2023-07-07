@@ -11,7 +11,7 @@ body{
     background-color: hsl(216, 12%, 8%);
 }
 
-form{
+#form-1{
     height: 400px;
     width: 400px;
     margin:10% auto;
@@ -22,7 +22,7 @@ form{
     background-color: hsl(213, 19%, 18%);
 }
 
-form img{
+#form-1 img{
     display: block;
     background-color: rgba(149, 158, 172, 0.2);
     border-radius: 50%;
@@ -32,13 +32,13 @@ form img{
     padding: 15px;
 }
 
-form h1{
+#form-1 h1{
     color: hsl(0, 0%, 100%);
     font-weight: 700;
     padding: 10px;
 }
 
-form p{
+#form-1 p{
     color: hsl(217, 12%, 63%);
     font-weight: 100;
     margin-bottom: 30px;
@@ -47,12 +47,12 @@ form p{
     margin-left: 10px;
 }
 
-form .radio{
+#form-1 .radio{
     margin-top: 5px;
     display: none;
 }
 
-form label{
+#form-1 label{
     background-color: rgba(149, 158, 172, 0.2);
     color: hsl(0, 0%, 100%);
     width: 60px;
@@ -69,16 +69,16 @@ form label{
     transition: all 0.3s;
 }
 
-form label:hover{
+#form-1 label:hover{
     background-color: rgba(149, 158, 172, 0.6);
 }
 
-form label:active{
+#form-1 input[type="radio"]:checked + label{
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
 }
 
-form .btn{
+#form-1 .btn{
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
     width: 350px;
@@ -90,7 +90,53 @@ form .btn{
     transition: 0.3s all;
 }
 
-form .btn:hover{
+#form-1 .btn:hover{
     background-color: hsl(0, 0%, 100%);
     color: hsl(25, 97%, 53%);
+}
+
+#form-2{
+    height: 400px;
+    width: 400px;
+    margin:10% auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    background-color: hsl(213, 19%, 18%);
+    /* visibility: hidden; */
+}
+
+#form-2 img{
+    margin: 20px;
+    margin-left: 100px;
+}
+
+#form-2 label{
+    background-color: rgba(149, 158, 172, 0.2);
+    border-radius: 15px;
+    width: 40%;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: hsl(25, 97%, 53%);
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+
+#form-2 h1{
+    color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-bottom: 10px;
+}
+
+#description{
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    align-self: center;
+    line-height: 1.5rem;
+}
+
+.attribution{
+    color: hsl(0, 0%, 100%);
 }

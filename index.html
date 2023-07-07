@@ -18,34 +18,44 @@
 <body>
 
   <!-- Rating state start -->
-  <form action="thankyou.html">
+  <form id="form-1">
     <img src="images/icon-star.svg" alt="">
     <br>
     <h1>How did we do?</h1>
     <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
-    <input class="radio" id="star-1" type="radio">
-    <label for="star-1">1</label>
+    <input class="radio" id="star-1" type="radio" name="rating">
+    <label for="star-1" id="label-1">1</label>
 
-    <input class="radio" id="star-2" type="radio">
-    <label for="star-2">2</label>
+    <input class="radio" id="star-2" type="radio" name="rating">
+    <label for="star-2" id="label-2">2</label>
 
-    <input class="radio" id="star-3" type="radio">
-    <label for="star-3">3</label>
+    <input class="radio" id="star-3" type="radio" name="rating">
+    <label for="star-3" id="label-3">3</label>
 
-    <input class="radio" id="star-4" type="radio">
-    <label for="star-4">4</label>
+    <input class="radio" id="star-4" type="radio" name="rating">
+    <label for="star-4" id="label-4">4</label>
     
-    <input class="radio" id="star-5" type="radio">
-    <label for="star-5">5</label>
+    <input class="radio" id="star-5" type="radio" name="rating">
+    <label for="star-5" id="label-5">5</label>
     
     <br>
-    <button class="btn">Submit</button>
+    <button class="btn" onclick="whichRating()">Submit</button>
 
+  </form>
+
+  <form id="form-2">
+    <img id="image" src="images/illustration-thank-you.svg">
+    <br>
+    <label for="image">You selected <span id="chosen-rating"></span> out of 5</label>
+    <h1>Thank you!</h1>
+    <p id="description">We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
   </form>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Elizabeth Bartholomew</a>.
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
