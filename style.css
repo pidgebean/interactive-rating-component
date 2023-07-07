@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+}
+
+form{
+    height: 500px;
+    width: 500px;
+    margin:10% auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 15px;
+    background-color: hsl(213, 19%, 18%);
+}
+
+form img{
+    display: block;
+    background-color: rgba(149, 158, 172, 0.5);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+form h1{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    padding: 10px;
+}
+
+form p{
+    color: hsl(217, 12%, 63%);
+    font-weight: 100;
+    margin-bottom: 30px;
+    font-size: 15px;
+    line-height: 1.5rem;
+}
+
+form .radio{
+    margin-top: 10px;
+    display: none;
+}
+
+form label{
+    background-color: rgba(149, 158, 172, 0.2);
+    color: hsl(0, 0%, 100%);
+    width: 60px;
+    height: 50px;
+    margin-top: 15px;
+    margin: 15px;
+    /* padding: 25px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+form label:hover{
+    background-color: rgba(149, 158, 172, 0.6);
+}
+
+form label:active{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+form .btn{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    width: 400px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 15px;
+    border: none;
+    transition: 0.3s all;
+}
+
+form .btn:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
