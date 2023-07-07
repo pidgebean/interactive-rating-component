@@ -151,11 +151,6 @@ body{
     text-align: center;
 }
 
-.attribution{
-    color: hsl(0, 0%, 100%);
-    margin-top: 300px;
-}
-
 @media (min-width: 375px) {
     #form-1, #form-2{
         height: 400px;
