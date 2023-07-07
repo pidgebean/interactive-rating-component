@@ -9,24 +9,24 @@
 
 body{
     background-color: hsl(216, 12%, 8%);
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 #form-1{
-    /* position: absolute;
-    top: 10%;
-    left: 37%; */
-    display: block;
+    position: absolute;
+    top: 20%;
     height: 400px;
     width: 400px;
-    /* margin:10% auto; */
-    margin-top: 40%;
     padding-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 15px;
     background-color: hsl(213, 19%, 18%);
-    justify-content: center;
-    align-items: center;
+    flex-basis: auto;
+    align-self: flex-end;
 }
 
 #form-1 img{
@@ -35,7 +35,7 @@ body{
     border-radius: 50%;
     height: 50px;
     width: 50px;
-    margin-left: 20px;
+    margin-left: 5px;
     padding: 15px;
 }
 
@@ -90,7 +90,6 @@ body{
     color: hsl(0, 0%, 100%);
     font-family:'Overpass', sans-serif;
     font-size: 20px;
-    /* font-weight: thin; */
     line-height: 1.5rem;
     width: 350px;
     height: 40px;
@@ -107,13 +106,10 @@ body{
 }
 
 #form-2{
-    /* position: absolute;
-    top: 10%;
-    left: 38%; */
+    position: absolute;
+    top: 20%;
     height: 400px;
     width: 400px;
-    /* margin:10% auto; */
-    margin-top: 40%;
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
@@ -158,4 +154,53 @@ body{
 .attribution{
     color: hsl(0, 0%, 100%);
     margin-top: 300px;
+}
+
+@media (min-width: 375px) {
+    #form-1, #form-2{
+        height: 400px;
+        width: 350px;
+    }
+
+    #form-1 label{
+        margin: 5px;
+    }
+
+    #form-1 .btn{
+        width: 300px;
+    }
+
+    #form-2 img{
+        margin-left: 22%;
+        margin-bottom: 25px;
+    }
+
+    #form-2 label{
+        margin-left: 60px;
+    }
+}
+
+@media (min-width:1440px) {
+    #form-1, #form-2{
+        height: 400px;
+        width: 400px;
+    }
+
+    #form-1 label{
+        margin: 2.6%;
+    }
+
+    #form-1 .btn{
+        width: 350px;
+    }
+
+    #form-2 img{
+        margin-left: 25%;
+        margin-bottom: 8%;
+    }
+
+    #form-2 label{
+        margin-left: 22%;
+    }
+
 }
